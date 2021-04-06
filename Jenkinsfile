@@ -5,6 +5,9 @@ pipeline {
             steps {
                 echo 'Hello world! from github' 
             }
+        stage('Stage 2') {
+            steps {
+                echo 'Good evening' 
         }
     }
 }
